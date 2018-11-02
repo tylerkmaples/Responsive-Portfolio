@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url(../images/dust_scratches.png);
   }
   
   * {
@@ -219,9 +219,15 @@ body {
 /* Media Query for 980px */
 
 @media screen and (max-width: 980px) {
-    nav {
-        margin-right: 30px;
-    }
+  /* INDEX */
+  nav {
+    margin-right: 30px;
+  }
+  /* PORTFOLIO */
+  #main-container {
+    float: left;
+    width: 650px;
+  }
 }
 
 /* Media Query for 768px */
