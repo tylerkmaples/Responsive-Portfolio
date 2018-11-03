@@ -243,6 +243,10 @@ body {
 /* Media Query for 640px */
 
 @media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+
   #logo {
     width: 100%;
   }
@@ -255,6 +259,12 @@ body {
   
   /* INDEX */
 
+  .main-section {
+    display: inline;
+    overflow: auto;
+    width: 90%;
+  }
+
   p {
    text-align: justify;
    text-justify: inter-word;
@@ -262,7 +272,8 @@ body {
 
   .auth-image {
     float: none;
-    width: 50%;
+    height: 300px;
+    width: 100%;
     margin: 0 auto;
   }
 }
